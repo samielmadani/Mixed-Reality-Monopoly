@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="bin" size="0.071400 0.071400" />
+    <ImageTarget name="boat" size="0.071400 0.071400" />
+    <ImageTarget name="dog" size="0.071400 0.071400" />
+    <ImageTarget name="car" size="0.071400 0.071400" />
+    <ImageTarget name="make-your-own-monopoly" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>

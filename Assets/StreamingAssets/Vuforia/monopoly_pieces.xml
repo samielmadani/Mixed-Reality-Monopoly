@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+    <Tracking>
+        <ImageTarget name="actualCube.Top" size="0.015000 0.015000"/>
+        <ImageTarget name="actualCube.Front" size="0.015000 0.015000"/>
+        <ImageTarget name="actualCube.Left" size="0.015000 0.015000"/>
+        <ImageTarget name="actualCube.Back" size="0.015000 0.015000"/>
+        <ImageTarget name="actualCube.Right" size="0.015000 0.015000"/>
+        <ImageTarget name="actualCube.Bottom" size="0.015000 0.015000"/>
+        <ImageTarget name="cube-1.Top" size="150.000000 150.000000"/>
+        <ImageTarget name="cube-1.Front" size="150.000000 150.000000"/>
+        <ImageTarget name="cube-1.Left" size="150.000000 150.000000"/>
+        <ImageTarget name="cube-1.Back" size="150.000000 150.000000"/>
+        <ImageTarget name="cube-1.Right" size="150.000000 150.000000"/>
+        <ImageTarget name="cube-1.Bottom" size="150.000000 150.000000"/>
+        <ImageTarget name="Cube.Top" size="150.000000 150.000000"/>
+        <ImageTarget name="Cube.Front" size="150.000000 150.000000"/>
+        <ImageTarget name="Cube.Left" size="150.000000 150.000000"/>
+        <ImageTarget name="Cube.Back" size="150.000000 150.000000"/>
+        <ImageTarget name="Cube.Right" size="150.000000 150.000000"/>
+        <ImageTarget name="Cube.Bottom" size="150.000000 150.000000"/>
+        <MultiTarget name="actualCube">
+            <Part name="actualCube.Left" translation="-0.007499999832361937 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="actualCube.Right" translation="0.007499999832361937 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="actualCube.Front" translation="0 0 0.007499999832361937" rotation="AD: 1 0 0 0"/>
+            <Part name="actualCube.Back" translation="0 0 -0.007499999832361937" rotation="AD: 0 1 0 180"/>
+            <Part name="actualCube.Top" translation="0 0.007499999832361937 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="actualCube.Bottom" translation="0 -0.007499999832361937 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="cube-1">
+            <Part name="cube-1.Left" translation="-75.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="cube-1.Right" translation="75.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="cube-1.Front" translation="0 0 75.0" rotation="AD: 1 0 0 0"/>
+            <Part name="cube-1.Back" translation="0 0 -75.0" rotation="AD: 0 1 0 180"/>
+            <Part name="cube-1.Top" translation="0 75.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="cube-1.Bottom" translation="0 -75.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+        <MultiTarget name="Cube">
+            <Part name="Cube.Left" translation="-75.0 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="Cube.Right" translation="75.0 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="Cube.Front" translation="0 0 75.0" rotation="AD: 1 0 0 0"/>
+            <Part name="Cube.Back" translation="0 0 -75.0" rotation="AD: 0 1 0 180"/>
+            <Part name="Cube.Top" translation="0 75.0 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="Cube.Bottom" translation="0 -75.0 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
+</QCARConfig>
